@@ -8,6 +8,8 @@ import lombok.extern.slf4j.Slf4j;
 import java.nio.charset.Charset;
 import java.time.LocalDateTime;
 
+import static cn.onenine.netty.base.util.DateTimeUtil.getNowStr;
+
 /**
  * @author li.hongjian
  * @email lhj502819@163.com
@@ -21,7 +23,7 @@ public class MyServerHandler extends ChannelInboundHandlerAdapter {
         ByteBuf buf = (ByteBuf) msg;
         byte[] msgByte = new byte[buf.readableBytes()];
         buf.readBytes(msgByte);
-        log.info(LocalDateTime.now() + "接收到消息");
+        log.info(getNowStr() + "接收到消息");
         log.info(new String(msgByte, Charset.forName("GBK")));
     }
 
