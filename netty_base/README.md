@@ -4,3 +4,5 @@
 - [~ 增加字符串解码器](https://github.com/lhj502819/NettyRelatedExercises/tree/main/netty_base/src/main/java/cn/onenine/netty/base/netty_03)
 - [~ 增加给客户端发送消息](https://github.com/lhj502819/NettyRelatedExercises/tree/main/netty_base/src/main/java/cn/onenine/netty/base/netty_04)
 - [实现NettyServer群发消息](https://github.com/lhj502819/NettyRelatedExercises/tree/main/netty_base/src/main/java/cn/onenine/netty/base/netty_05)
+- [实现简单NettyClient](https://github.com/lhj502819/NettyRelatedExercises/tree/main/netty_base/src/main/java/cn/onenine/netty/base/netty_06)
+- [实现自定义编解码](https://github.com/lhj502819/NettyRelatedExercises/tree/main/netty_base/src/main/java/cn/onenine/netty/base/netty_07)
