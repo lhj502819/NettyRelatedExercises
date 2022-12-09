@@ -6,3 +6,5 @@
 - [实现NettyServer群发消息](https://github.com/lhj502819/NettyRelatedExercises/tree/main/netty_base/src/main/java/cn/onenine/netty/base/netty_05)
 - [实现简单NettyClient](https://github.com/lhj502819/NettyRelatedExercises/tree/main/netty_base/src/main/java/cn/onenine/netty/base/netty_06)
 - [实现自定义编解码](https://github.com/lhj502819/NettyRelatedExercises/tree/main/netty_base/src/main/java/cn/onenine/netty/base/netty_07)
+- [`ChannelInboundHandlerAdapter`和`ChannelOutboundHandlerAdapter`的使用](https://github.com/lhj502819/NettyRelatedExercises/tree/main/netty_base/src/main/java/cn/onenine/netty/base/netty_08)
+- [Netty实现UDP通信](https://github.com/lhj502819/NettyRelatedExercises/tree/main/netty_base/src/main/java/cn/onenine/netty/base/netty_09)

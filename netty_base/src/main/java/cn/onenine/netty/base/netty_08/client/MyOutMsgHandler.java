@@ -4,6 +4,8 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelOutboundHandlerAdapter;
 import io.netty.channel.ChannelPromise;
 
+import java.net.SocketAddress;
+
 /**
  * @author li.hongjian
  * @email lhj502819@163.com
@@ -11,6 +13,10 @@ import io.netty.channel.ChannelPromise;
  */
 public class MyOutMsgHandler extends ChannelOutboundHandlerAdapter {
 
+    @Override
+    public void bind(ChannelHandlerContext ctx, SocketAddress localAddress, ChannelPromise promise) throws Exception {
+        super.bind(ctx, localAddress, promise);
+    }
 
     @Override
     public void read(ChannelHandlerContext ctx) throws Exception {
