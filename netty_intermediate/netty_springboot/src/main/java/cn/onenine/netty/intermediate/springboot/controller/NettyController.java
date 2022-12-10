@@ -29,5 +29,11 @@ public class NettyController {
         return "nettyServer isOpen " + nettyServer.getChannel().isOpen();
     }
 
+    @RequestMapping("/destroy")
+    public String destroy(){
+        nettyServer.destroy();
+        return "success";
+    }
+
 
 }
