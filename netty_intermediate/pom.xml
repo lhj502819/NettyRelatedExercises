@@ -13,7 +13,10 @@
     <packaging>pom</packaging>
     <modules>
         <module>netty_springboot</module>
-        <module>netty_protocol</module>
+        <module>netty_protobuf</module>
+        <module>netty_websocket</module>
+        <module>netty_trans_javaObject</module>
+        <module>netty_upload_file</module>
     </modules>
 
     <properties>
